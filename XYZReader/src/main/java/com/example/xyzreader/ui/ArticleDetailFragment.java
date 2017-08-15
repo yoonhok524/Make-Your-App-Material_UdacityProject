@@ -174,8 +174,8 @@ public class ArticleDetailFragment extends Fragment implements LoaderManager.Loa
 
             }
 
-            String body = mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n\r\n)", "\n\n").replaceAll("(\r\n)", " ").replaceAll("  ", " ");
-            bodyView.setText(body);
+            String body = mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n\r\n)", "<br/>").replaceAll("(\r\n)", " ").replaceAll("  ", " ");
+            bodyView.setText(Html.fromHtml(body));
             ImageLoaderHelper.getInstance(getActivity()).getImageLoader()
                     .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
                         @Override
