@@ -16,11 +16,9 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#ccc</color>
-
-    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimary">#333</color>
     <color name="colorPrimaryDark">#616161</color>
-    <color name="colorAccent">#7C4DFF</color>
+    <color name="colorAccent">#03A9F4</color>
     <color name="secondary_text">#757575</color>
 
 </resources>
