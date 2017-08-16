@@ -13,12 +13,21 @@ The core concept of this project is Material UI.
  - Multi screen support
  - Color, Style
 
+1. Handset
+----
+Portrait - ArticleDetails<br/>
 ![Handset Portrait - ArticleDetails](https://github.com/yoonhok524/Make-Your-App-Material_UdacityProject/blob/master/screenshots/hdp.gif?raw=true)
 
+Landscape - ArticleDetails<br/>
 ![Handset Landscape - ArticleDetails](https://github.com/yoonhok524/Make-Your-App-Material_UdacityProject/blob/master/screenshots/hdl.gif?raw=true)
 
+2. Tablet
+----
+Portrait - ArticleGrid<br/>
 ![Tablet Portrait - ArticleGrid](https://github.com/yoonhok524/Make-Your-App-Material_UdacityProject/blob/master/screenshots/tp.gif?raw=true)
 
+Landscape - ArticleGrid<br/>
 ![Tablet Landscape - ArticleGrid](https://github.com/yoonhok524/Make-Your-App-Material_UdacityProject/blob/master/screenshots/tl.gif?raw=true)
 
+Landscape - ArticleDetails<br/>
 ![Tablet Landscape - ArticleDetails](https://github.com/yoonhok524/Make-Your-App-Material_UdacityProject/blob/master/screenshots/tdl.gif?raw=true)
